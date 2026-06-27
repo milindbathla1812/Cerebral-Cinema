@@ -1,0 +1,18 @@
+# ===========================================================================
+# .gitignore  -  keep the GitHub repo small: code only, no data/outputs/venv
+# ===========================================================================
+
+# Virtual environment (recreate it with: pip install -r requirements.txt)
+.venv/
+
+# Atlases - downloaded automatically on first run
+atlases/
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db

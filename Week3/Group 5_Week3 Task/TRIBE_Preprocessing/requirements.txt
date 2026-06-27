@@ -1,0 +1,14 @@
+# ---------------------------------------------------------------------------
+# TRIBE v2 Preprocessing Pipeline - Python packages
+# Install with:  pip install -r requirements.txt
+# ---------------------------------------------------------------------------
+
+numpy          # arrays + the .npy save format
+nibabel        # read brain files (.nii.gz)
+nilearn        # atlases, signal cleaning, parcellation, plotting
+pandas         # small tables
+scipy          # resampling / interpolation
+matplotlib     # making the plots
+scikit-image   # SSIM / PSNR image-quality metrics (loss analysis)
+jupyter        # run the notebooks
+ipykernel      # register the venv as a notebook kernel
